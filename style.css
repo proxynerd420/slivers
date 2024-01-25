@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 1000;
+    background-color: black;
+    background-image: url("img/ghalta.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+body a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover {
+    cursor: url("img/tap.webp"), auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #3f3f3f 0%, #000000 100%);
+    padding: 5px;
+    padding-right: 23px;
+    padding-left: 23px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 30px;
+    z-index: 1000;
+}
+
+.pulse h1 {
+    animation: pulse 20s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.nerd img:hover {
+    animation: wiggle 50ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: translate(5px, 0);
+    }
+
+    50% {
+        transform: translate(-5px, 0);
+    }
+
+    100% {
+        transform: translate(5px, 0);
+    }
+}
+
+.mana img:hover {
+    animation: shake 50ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+header img {
+    width: 50px;
+}
+
+header h1 {
+    color: greenyellow;
+}
+
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: 2000;
+    color: greenyellow;
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0 auto;
+    width: 96vw;
+    border-top: 2px solid greenyellow;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+}
+
+.ul {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    opacity: 0.9;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    padding-bottom: 20px;
+    /* max-width: 20rem; */
+}
+
+.ul li {
+    color: greenyellow;
+    /* max-width: 10rem; */
+}
+
+.ul>div {
+    padding: 0 20px;
+}
+
+.ul ul {
+    padding: 0;
+    list-style: none;
+}
+
+.two-column-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Optional: Verwendet, um den Platz zwischen den Spalten zu verteilen */
+    list-style: none;
+}
+
+.two-column-list li {
+    width: 40%; /* Nutze einen Wert, der gut für deine Seitenlayout funktioniert */
+    margin-bottom: 10px; /* Optional: Verwendet, um Platz zwischen den Einträgen zu haben */
+    padding: 0%;
+}
+
+
+h3 {
+    text-align: center;
+    color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.fitted_headline {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: greenyellow;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    z-index: -1000;
+}
+
+h4 {
+    text-align: center;
+}
+
+.commander {
+    text-align: center;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.commander>div>img {
+    /* z-index: 1; */
+    opacity: 1;
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform .2s;
+}
+
+.commander>div>img:hover {
+    z-index: 1;
+    transform: scale(1.35);
+    position: relative; /* oder position: absolute; */
+}
+
+.lands {
+    text-align: center;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lands>div>img {
+    opacity: 1;
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform .2s;
+}
+
+.lands>div>img:hover {
+    z-index: 1;
+    transform: scale(1.35);
+    position: relative; /* oder position: absolute; */
+}
+
+.kreaturen {
+    text-align: center;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.kreaturen>div>img {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform .2s;
+}
+
+.kreaturen>div>img:hover {
+    z-index: 1;
+    transform: scale(1.35);
+    position: relative; /* oder position: absolute; */
+}
+
+.Zauber {
+    text-align: center;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.Zauber>div>img {
+    width: 12vw;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    margin: 0 10px;
+    transition: transform .2s;
+}
+
+.Zauber>div>img:hover {
+    z-index: 1;
+    transform: scale(1.35);
+    position: relative; /* oder position: absolute; */
+}
+
+.Artefakte {
+    text-align: center;
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 30px;
+}
+
+.Artefakte>div>img {
+    width: 12vw;
+    border-radius: 0.65vw;
+    margin: 0 10px;
+    transition: transform .2s;
+}
+
+.Artefakte>div>img:hover {
+    z-index: 1;
+    transform: scale(1.35);
+    position: relative; /* oder position: absolute; */
+}
+
+.Erweiterungen>ul {
+    display: flex;
+    padding: 20px 0 20px 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 96vw;
+    margin: 0 auto;
+    border-left: 2px solid greenyellow;
+    border-right: 2px solid greenyellow;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 30px;
+}
+
+.Erweiterungen>ul>li {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    color: greenyellow;
+    width: auto;
+}
+
+.Erweiterungen>ul>li>img {
+    width: 3vw;
+}
+
+.commander>div>img.foil-effect {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform 0.2s;
+    filter: brightness(100%);
+}
+
+.kreaturen>div>img.foil-effect {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform 0.2s;
+    filter: brightness(100%);
+}
+
+.kreaturen>div>img.foil-effect:hover {
+    transform: scale(1.35);
+    animation: rainbowFoil 2s infinite alternate;
+}
+
+.lands>div>img.foil-effect {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform 0.2s;
+    filter: brightness(100%);
+}
+
+.lands>div>img.foil-effect:hover {
+    transform: scale(1.35);
+    animation: rainbowFoil 2s infinite alternate;
+}
+
+.Zauber>div>img.foil-effect {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform 0.2s;
+    filter: brightness(100%);
+}
+.commander>div>img.foil-effect:hover {
+    transform: scale(1.35);
+    animation: rainbowFoil 2s infinite alternate;
+}
+
+
+.Zauber>div>img.foil-effect:hover {
+    transform: scale(1.35);
+    animation: rainbowFoil 2s infinite alternate;
+}
+
+.Artefakte>div>img.foil-effect {
+    width: 12vw;
+    margin: 0 10px;
+    border: 1px solid none;
+    border-radius: 0.65vw;
+    transition: transform 0.2s;
+    filter: brightness(100%);
+}
+
+.Artefakte>div>img.foil-effect:hover {
+    transform: scale(1.35);
+    animation: rainbowFoil 2s infinite alternate;
+}
+
+.easter-egg-notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 10000;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#muteButton {
+    align-self: center;
+    /* Stile für den Stummschalt-Button */
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Füge Abstand zwischen den Elementen hinzu, falls gewünscht */
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #3f3f3f 0%, #000000 100%);
+    padding: 20px;
+    border-top: 2px solid greenyellow;
+}
+
+footer img {
+    width: 15vw;
+}
+
+footer h4 {
+    color: greenyellow;
+}
