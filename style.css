@@ -147,6 +147,7 @@ h2 {
 }
 
 .two-column-list {
+    width: 25vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; /* Optional: Verwendet, um den Platz zwischen den Spalten zu verteilen */
@@ -155,8 +156,9 @@ h2 {
 
 .two-column-list li {
     width: 40%; /* Nutze einen Wert, der gut für deine Seitenlayout funktioniert */
-    margin-bottom: 10px; /* Optional: Verwendet, um Platz zwischen den Einträgen zu haben */
-    padding: 0%;
+    /* margin-bottom: 10px; */
+    margin-right: 0%; /* Optional: Verwendet, um Platz zwischen den Einträgen zu haben */
+    padding-right: 0%;
 }
 
 
