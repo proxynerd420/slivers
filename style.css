@@ -6,7 +6,7 @@ body {
     font-family: Rajdhani, sans-serif;
     font-weight: 1000;
     background-color: black;
-    background-image: url("img/ghalta.png");
+    background-image: url("img/overlord-bg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -16,7 +16,7 @@ body {
 
 body a {
     text-decoration: none;
-    color: greenyellow;
+    color: violet;
 }
 
 a:hover {
@@ -33,7 +33,7 @@ header {
     padding-left: 23px;
     position: sticky;
     top: 0;
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 2px solid violet;
     margin-bottom: 30px;
     z-index: 1000;
 }
@@ -100,7 +100,7 @@ header img {
 }
 
 header h1 {
-    color: greenyellow;
+    color: violet;
 }
 
 h2 {
@@ -109,13 +109,13 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     font-weight: 2000;
-    color: greenyellow;
+    color: violet;
     background: rgba(0, 0, 0, 0.9);
     margin: 0 auto;
     width: 96vw;
-    border-top: 2px solid greenyellow;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-top: 2px solid violet;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
 }
 
 .ul {
@@ -126,14 +126,14 @@ h2 {
     opacity: 0.9;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     padding-bottom: 20px;
     /* max-width: 20rem; */
 }
 
 .ul li {
-    color: greenyellow;
+    color: violet;
     /* max-width: 10rem; */
 }
 
@@ -164,7 +164,7 @@ h2 {
 
 h3 {
     text-align: center;
-    color: greenyellow;
+    color: violet;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -172,11 +172,11 @@ h3 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    color: greenyellow;
+    color: violet;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     z-index: -1000;
 }
 
@@ -188,8 +188,8 @@ h4 {
     text-align: center;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -213,8 +213,8 @@ h4 {
     text-align: center;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -237,8 +237,8 @@ h4 {
     text-align: center;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -260,8 +260,8 @@ h4 {
     text-align: center;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -283,8 +283,8 @@ h4 {
     text-align: center;
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
     background-color: rgba(0, 0, 0, 0.9);
     padding-bottom: 30px;
 }
@@ -308,9 +308,9 @@ h4 {
     background-color: rgba(0, 0, 0, 0.9);
     width: 96vw;
     margin: 0 auto;
-    border-left: 2px solid greenyellow;
-    border-right: 2px solid greenyellow;
-    border-bottom: 2px solid greenyellow;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
+    border-bottom: 2px solid violet;
     padding-bottom: 30px;
 }
 
@@ -318,7 +318,7 @@ h4 {
     list-style: none;
     text-align: center;
     margin: 0 auto;
-    color: greenyellow;
+    color: violet;
     width: auto;
 }
 
@@ -402,7 +402,7 @@ h4 {
     left: 50%;
     transform: translateX(-50%);
     background-color: #333;
-    color: greenyellow;
+    color: violet;
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
@@ -439,7 +439,7 @@ footer {
     align-items: center;
     background: radial-gradient(ellipse at center, #3f3f3f 0%, #000000 100%);
     padding: 20px;
-    border-top: 2px solid greenyellow;
+    border-top: 2px solid violet;
 }
 
 footer img {
@@ -447,5 +447,5 @@ footer img {
 }
 
 footer h4 {
-    color: greenyellow;
+    color: violet;
 }
