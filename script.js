@@ -94,15 +94,6 @@ document.getElementById('sumpf7').addEventListener('mouseenter', function () {
     // Füge hier weitere Aktionen hinzu, falls benötigt
 });
 
-document.getElementById('nazgul').addEventListener('mouseenter', function () {
-    playSound('mp3/nazgul.mp3');
-    // Füge hier weitere Aktionen hinzu, falls benötigt
-});
-
-document.getElementById('sheo').addEventListener('mouseenter', function () {
-    playSound('mp3/sheo.mp3');
-    // Füge hier weitere Aktionen hinzu, falls benötigt
-});
 
         // KonamiCode Easteregg
     const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
